@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+
+
+
+section{
+    display: flex;
+    width: 80%;
+    margin: 100px;
+    justify-content: space-between;
+    
+}
+
+
+img{
+    width: 100%;
+}
+
+.COFFE{
+    background-color: beige;
+    display:flex;
+}
+
+.CoffeCup{
+    width: 50%;
+    animation: coffe 2.5s ;
+    align-self: center;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    
+}
+.CD{
+    width: 30%;
+    align-self: center;
+    padding: 30px;
+    text-align: center;
+}
+.CD > h1{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+@keyframes coffe {
+    0%{ 
+        transform: translatey(-15px);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    100%{
+        transform: translatey(-15px);
+    }
+}
+
+
+
+
+
